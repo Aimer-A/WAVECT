@@ -1,0 +1,27 @@
+# Local datasets and generated inversion products
+正演波形数据集/
+标波输出数据集/
+新数据集处理结果/
+砚北处理结果/
+测试数据集720处理结果/
+测试数据集728处理结果/
+*.semv
+*.W
+*.grd
+*.tsv
+*.npz
+*.npy
+*.pkl
+*.pickle
+*.log
+*.err
+*.pid
+__pycache__/
+*.pyc
+
+# Local IDE and temporary files
+.venv/
+.idea/
+.vscode/
+*.tmp
+*.bak

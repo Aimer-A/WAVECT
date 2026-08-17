@@ -1,0 +1,42 @@
+{
+  "schema_version": 1,
+  "project_name": "示例矿井-第一期",
+  "report_template": "generic",
+  "inputs": {
+    "travel_time_csv": "${PROJECT_DIR}/inversion_input.csv",
+    "waveform_root": "",
+    "station_file": ""
+  },
+  "workface": {
+    "boundary_file": "${PROJECT_DIR}/工作面边界.csv",
+    "basemap_file": "${PROJECT_DIR}/矿井底图.dwg",
+    "mapa_file": "",
+    "cad_x_offset": 0.0,
+    "cad_y_offset": 0.0
+  },
+  "outputs": {
+    "directory": "${PROJECT_DIR}/inversion"
+  },
+  "model": {
+    "background_velocity": "0",
+    "auto_bounds": "1",
+    "solver_method": "sirt",
+    "sirt_iterations": "300",
+    "sirt_omega": "0.30",
+    "sirt_step_damp": "1.0",
+    "sirt_auto_tune": "0",
+    "auto_algorithm": "0",
+    "auto_cv_seeds": "11,23,41",
+    "auto_pilot_outer": "24",
+    "auto_pilot_lsqr": "160",
+    "slice_z": "",
+    "alpha_reg": "4.0",
+    "background_damping": "1.5",
+    "coverage_weight_exponent": "1.5",
+    "regularize_total_model": true,
+    "curvature_reg_factor": "0.25",
+    "curvature_z_factor": "0.5",
+    "anomaly_limit": "0.30",
+    "presentation_sigma": "1.0"
+  }
+}
