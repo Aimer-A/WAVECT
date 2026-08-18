@@ -1,0 +1,9 @@
+{
+  "input": "F:\\vscode\\python\\层析成像教程\\层析成像教程\\实战\\specfem3d模拟波形数据集\\test\\output_stage1\\travel_times_obs.csv",
+  "output": "F:\\vscode\\python\\层析成像教程\\层析成像教程\\实战\\specfem3d模拟波形数据集\\test\\wavect_input\\inversion_input.csv",
+  "rows": 5440,
+  "events": 80,
+  "receivers": 64,
+  "travel_time_unit_out": "ms",
+  "source_of_truth": "test/output_stage1/travel_times_obs.csv"
+}
